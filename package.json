@@ -1,0 +1,15 @@
+{
+  "name": "function-util",
+  "version": "1.0.0",
+  "description": "a javascript lib for web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "util"
+  ],
+  "author": "jackfei",
+  "license": "ISC"
+}

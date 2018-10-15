@@ -1,4 +1,4 @@
-# function-util，本仓库为本人收集的js util工具方法。
+## function-util，本仓库为本人收集的js util工具方法。
 
 npm install function-util --save
 

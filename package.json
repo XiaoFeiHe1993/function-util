@@ -1,10 +1,11 @@
 {
   "name": "function-util",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "a javascript util function for web",
   "main": "bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production rollup -c"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,16 @@
   "author": "jackfei",
   "license": "ISC",
   "devDependencies": {
-    "rollup": "^0.66.6"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "cross-env": "^5.2.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-replace": "^2.1.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
   }
 }

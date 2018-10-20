@@ -1,4 +1,6 @@
-## function-util，本仓库为本人收集的js util工具方法。
+# this is a test package, you don't use it in your project.
+
+### function-util，本仓库为本人收集的js util工具方法。
 
 npm install function-util --save
 

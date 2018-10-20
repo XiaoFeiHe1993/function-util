@@ -5,10 +5,10 @@
 npm install function-util --save
 
 ### part1：得到某天的0点0分0秒1毫秒。
-getFirstDate()、getFirstTime()
+getFirstDate()
 
 ### part2：得到某天的23点59分59秒999毫秒。
-getFinalDate()、getFinalTime()
+getFinalDate()
 
 ### part3: 判断是否是url。
 isUrl()
@@ -21,3 +21,6 @@ formatBytes()
 
 ### part6: 得到url中的查询字符串
 getParameterByName()
+
+### part7: 设置cookie、得到cookie
+setCookie()、getCookie()

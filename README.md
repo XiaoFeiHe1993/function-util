@@ -17,3 +17,5 @@ npm install function-util --save
 #### part6: getParameterByName()得到url中的查询字符串
 
 #### part7: setCookie()设置cookie、getCookie()得到cookie
+
+#### part8: getUUID()得到UUID

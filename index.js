@@ -2,6 +2,7 @@ import {getFirstDate, getFinalDate, formatNumber, getUUID} from './lib/timeUtil'
 import {isUrl, isEmail} from './lib/isUtil';
 import {formatBytes} from './lib/fileUtil';
 import {getParameterByName, setCookie, getCookie} from './lib/urlUtil';
+import {fixedBody, looseBody} from './lib/otherUtil';
 
 module.exports = {
     getFirstDate,
@@ -16,5 +17,8 @@ module.exports = {
 
     getParameterByName,
     setCookie,
-    getCookie
+    getCookie,
+
+    fixedBody,
+    looseBody
 };

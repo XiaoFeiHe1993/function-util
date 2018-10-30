@@ -1,4 +1,4 @@
-# this is a test package, you don't use it in your project.
+# this is a test package, if you use it in your project, You must be careful.
 
 ### function-util，本仓库为本人收集的js util工具方法。
 
@@ -19,3 +19,5 @@ part6: getParameterByName()得到url中的查询字符串
 part7: setCookie()设置cookie、getCookie()得到cookie
 
 part8: getUUID()得到UUID
+
+part9: 解决移动端滚动穿透，弹窗出现时调用fixedBody()，弹窗关闭时调用looseBody()

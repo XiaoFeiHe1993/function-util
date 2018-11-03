@@ -3,6 +3,7 @@ import {isUrl, isEmail} from './lib/isUtil';
 import {formatBytes} from './lib/fileUtil';
 import {getParameterByName, setCookie, getCookie} from './lib/urlUtil';
 import {fixedBody, looseBody} from './lib/otherUtil';
+import {rem} from './lib/remUtil';
 
 module.exports = {
     getFirstDate,
@@ -20,5 +21,7 @@ module.exports = {
     getCookie,
 
     fixedBody,
-    looseBody
+    looseBody,
+
+    rem
 };

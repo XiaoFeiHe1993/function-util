@@ -1,5 +1,3 @@
-# this is a test package, if you use it in your project, You must be careful.
-
 ### function-util，本仓库为本人收集的js util工具方法。
 
 npm install function-util --save
@@ -19,8 +17,11 @@ part6: getUUID()得到UUID
 part7: 解决移动端滚动穿透，弹窗出现时调用fixedBody()，弹窗关闭时调用looseBody()
 
 part8: rem()适配移动端rem解决方案
-    rem({
-      baseWidth: 375, // 375设计稿宽度
-      resize: true // 自动调整
-    });
+```
+应用程序初始化时调用，例如react app.js中
+rem({
+  baseWidth: 375, // 375设计稿宽度
+  resize: true // 自动调整
+});
+```
 

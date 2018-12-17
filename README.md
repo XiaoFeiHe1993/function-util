@@ -1,4 +1,4 @@
-### function-util，本仓库为本人收集的js util工具方法。
+### this is a test package, I recommend you can get one function from the source code rather than use the Lib。
 
 npm install function-util --save
 
@@ -23,5 +23,10 @@ rem({
   baseWidth: 375, // 375设计稿宽度
   resize: true // 自动调整
 });
+```
+
+part9: 点击网页显示['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善']
+```
+showText(['富强', '民主', '文明', '和谐', '自由', '平等', '公正', '法治', '爱国', '敬业', '诚信', '友善'], ['#1d4c94', '#7c5dc7', 'red', 'pink', 'green', '#FC993D', '#4169E2', '#0ABB03', '#FC993D', '#999999', '#FF00FF', '#3A55DC'])
 ```
 

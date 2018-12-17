@@ -2,7 +2,7 @@ import {getFirstDate, getFinalDate, formatNumber, getUUID} from './lib/timeUtil'
 import {isUrl, isEmail} from './lib/isUtil';
 import {formatBytes} from './lib/fileUtil';
 import {getParameterByName, setCookie, getCookie} from './lib/urlUtil';
-import {fixedBody, looseBody} from './lib/otherUtil';
+import {fixedBody, looseBody, showText} from './lib/otherUtil';
 import {rem} from './lib/remUtil';
 
 module.exports = {
@@ -22,6 +22,7 @@ module.exports = {
 
     fixedBody,
     looseBody,
+    showText,
 
     rem
 };

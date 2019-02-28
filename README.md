@@ -31,3 +31,5 @@ showText(['富强', '民主', '文明', '和谐', '自由', '平等', '公正', 
 ```
 
 part10：removeFormEmpty()移除表单对象中字符串前后的空格(这里只去除第一层级的子属性，如果子对象中的空格没有去除)
+
+part11: htmlEncode()，html转义，htmlDecode()，html反转义

@@ -1,6 +1,6 @@
 {
   "name": "function-util",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "a javascript util function for web",
   "main": "bundle.js",
   "scripts": {
@@ -18,21 +18,23 @@
   "author": "jackfei",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.1.2",
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-stage-2": "^7.0.0",
     "@babel/preset-stage-3": "^7.0.0",
-    "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
+    "babel-core": "6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-es2015": "^6.24.1",
     "cross-env": "^5.2.0",
-    "jest": "^23.6.0",
-    "rollup": "^0.66.6",
-    "rollup-plugin-babel": "^4.0.3",
-    "rollup-plugin-replace": "^2.1.0",
-    "rollup-plugin-uglify": "^6.0.0"
+    "jest": "^24.8.0",
+    "rollup": "^1.12.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-uglify": "^6.0.2"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0"
+    "@babel/polyfill": "^7.4.4"
   }
 }

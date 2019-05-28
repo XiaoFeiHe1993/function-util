@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import {uglify} from 'rollup-plugin-uglify';
 import replace from 'rollup-plugin-replace';
+import commonjs from 'rollup-plugin-commonjs';
 
 var env = process.env.NODE_ENV;
 
@@ -16,6 +17,11 @@ var config = {
         }),
         replace({
             'process.env.NODE_ENV': JSON.stringify(env)
+        }),
+        commonjs({
+            include: 'node_modules/**',  // Default: undefined
+            ignoreGlobal: false,
+            sourceMap: false
         })
     ]
 };
@@ -26,8 +32,7 @@ if (env === 'production') {
             compress: {
                 pure_getters: true,
                 unsafe: true,
-                unsafe_comps: true,
-                warnings: false
+                unsafe_comps: true
             }
         })
     )

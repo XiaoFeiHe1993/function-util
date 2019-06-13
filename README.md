@@ -38,3 +38,8 @@ showText(['富强', '民主', '文明', '和谐', '自由', '平等', '公正', 
 ```
 checkPwd(str) // 0 low, 1 middle, 2 high
 ```
+#### 13：isCrossOrigin()检测url是否跨域
+```
+const res = isCrossOrigin('https://www.npmjs.com/package/url', 'https://yarn.bootcss.com/')
+console.log(res) // true
+```
